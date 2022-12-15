@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  height: 60px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.appName {
+  color: red;
+}
+
+.button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: none;
+  /* margin: auto; */
+}
