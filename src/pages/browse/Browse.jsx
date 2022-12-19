@@ -4,6 +4,7 @@ import MoviesList from "../../component/content/MoviesList";
 import Header from "../../component/Header";
 import { useFetchMovie } from "../../component/hooks/useFetchMovie";
 import Intro from "../../component/Intro";
+import TestGit from "../../component/TestGit";
 
 // https://api.themoviedb.org/3/movie/550?api_key=e8fea289a11fdb723d9c3aaecfb5b1eb
 
@@ -65,6 +66,7 @@ function Browse() {
   return (
     <div className="app">
       <Header />
+      <TestGit />
       <Intro
         image={introMovie.backdrop_path}
         description={introMovie.overview}
